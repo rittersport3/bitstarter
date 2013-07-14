@@ -7,7 +7,7 @@ app.get('/', function(request, response) {
 
  var blaublau = fs.readFileSync('./index.html');
  response.send(blaublau.toString());
-};
+});
 
 
 var port = process.env.PORT || 5000;
